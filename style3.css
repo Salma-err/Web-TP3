@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg, rgb(248, 248, 66) 0%, rgb(245, 245, 112) 35%, lightblue 100%);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container{
+    background: linear-gradient(to left ,  #fff  50%, rgb(243, 243, 243) 50%);
+    width: 80%;
+    height: 600px;
+    border-radius: 20px;
+    display: inline-flexbox;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    width: 20px;
+    height: 20px;
+}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#header #nouv{
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    font-family: Calibri;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+.joueur{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.joueur h1{
+    font-size: 40px;
+    font-family: Calibri;
+    font-weight: lighter;
+    letter-spacing: 3px;
+}
+.joueur img{
+    width: 30px;
+    height: 30px;
+}
+.joueur output{
+    font-size: 70px;
+    font-family: Calibri;
+    font-weight: lighter;
+    margin-left: 90px;
+    color: rgb(247, 175, 42);
+}
+.joueur #cube{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin-top: 5%;
+}
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 150px;
+    margin-left: 13%;
+    width: 75%;
+}
+#footer .j{
+    width: 100px;
+    line-height: 50px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
+    border: 2px solid rgb(245, 245, 112);
+    border-radius: 10px;
+    background-color: rgb(245, 245, 112);
+    color: #fff;
+    font-size: 25px;
+    font-family: Calibri;
+    font-weight: lighter;
+    text-align: center;
+}
+.actions{
+    display: inline-flexbox;
+    align-items:center;
+    justify-content: center;
+}
+.actions button{
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    font-family: Calibri;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+.actions .lac{
+    margin-bottom: 20px;
+}
+
+.band{
+    position: absolute;
+    background-color: silver;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    font-size: 40px;
+    font-weight: lighter;
+    color: gold;
+    z-index: 100;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
